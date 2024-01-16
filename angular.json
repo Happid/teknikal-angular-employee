@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "teknikal-mandiri": {
+    "teknikal": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/teknikal-mandiri",
+            "outputPath": "dist/teknikal",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -53,6 +53,12 @@
                   "maximumError": "4kb"
                 }
               ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
               "outputHashing": "all"
             },
             "development": {
@@ -67,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "teknikal-mandiri:build:production"
+              "buildTarget": "teknikal:build:production"
             },
             "development": {
-              "buildTarget": "teknikal-mandiri:build:development"
+              "buildTarget": "teknikal:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "teknikal-mandiri:build"
+            "buildTarget": "teknikal:build"
           }
         },
         "test": {
@@ -94,12 +100,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1086b804-9f0f-4bb2-b5da-adf12f32b238"
   }
 }
