@@ -15,6 +15,6 @@ username = admin, password = admin<br /><br />
 
 
 ## 3rd Party
-Tailwindcss -> Framework CSS
-json-server -> Fake Backend
+Tailwindcss -> Framework CSS<br />
+json-server -> Fake Backend<br />
 ngx-toastr -> Toaster / Pesan Pop Up
