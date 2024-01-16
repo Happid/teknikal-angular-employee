@@ -604,7 +604,7 @@
       "id": 51,
       "firstName": "Jerry",
       "lastName": "Kertzmann",
-      "username": "tmullender1e",
+      "username": "tmullender1e_update",
       "email": "tmullender1e@scientificamerican.com",
       "birthDate": "1988-09-14T20:55",
       "group": "B-",
@@ -1175,17 +1175,41 @@
       "basicSalary": 7000000,
       "status": "Berkeluarga",
       "description": "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+    },
+    {
+      "id": 99,
+      "username": "test",
+      "firstName": "Happid",
+      "lastName": "Ilmi",
+      "email": "happidilmi@gmail.com",
+      "birthDate": "2024-01-16T04:32",
+      "group": "O-",
+      "status": "Berkeluarga",
+      "basicSalary": 5500000,
+      "description": "testert"
+    },
+    {
+      "id": 100,
+      "username": "test2",
+      "firstName": "Happid2",
+      "lastName": "Ilmi2",
+      "email": "happidilmi2@gmail.com",
+      "birthDate": "2024-01-16T04:32",
+      "group": "O-",
+      "status": "Berkeluarga",
+      "basicSalary": 7500000,
+      "description": "testert"
     }
   ],
   "login": [
     {
-      "id":1,
+      "id": 1,
       "username": "admin",
       "password": "12345",
       "token": "testToken123"
     },
     {
-      "id":2,
+      "id": 2,
       "username": "admin",
       "password": "admin",
       "token": "testToken123"
