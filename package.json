@@ -6,8 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "json-server": "json-server --watch db.json --no-cors --port 3004"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +18,6 @@
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
-    "json-server": "^1.0.0-alpha.21",
     "ngx-toastr": "^18.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

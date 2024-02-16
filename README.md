@@ -1,7 +1,8 @@
 # Teknikal-Test
 
 ## installasi module
-open terminal di project lalu ketik npm install<br /><br />
+open terminal di project lalu ketik npm install<br />
+npm install -g json-server@0.17.4 untuk installasi fake backend<br /><br />
 
 ## menjalankan angular server
 ng serve<br /><br />
